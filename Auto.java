@@ -126,51 +126,65 @@ public void runOpMode(){
   if (color.blue  ()>3000){
       telemetry.addData("blue color",color.blue());
       telemetry.update();
-   drive(1400,1400,1400,1400, 0,0, .3);
-   mpause();
-   drive(-200,-200,-200,-200, 0,0, .3);
-   mpause();
-   servoy();
-   drive(0,0,0,0, 1200,-1200, .65); //up
-   mpause();
-   drive(-382,382,-382,382, 0,0, 3);
-   mpause();
-   drive(85,85,85,85, 0,0, .25);
-   spause();
-   drive(0,0,0,0, -550,550, .37); //down
-   spause();
-   mpause();
-   openclaw();
-   mpause();
-   drive(0,0,0,0, 550,-550, .65);
-   mpause();
-   drive(1103,-1103,1103,-1103, 0,0, .25);
-   servox();
-   drive(0,0,0,0, -1000,1000, .37); //down
-   mpause();
-   spause();
-   drive(-150,150,150,-150, 0,0, .3);
-   mpause();
-   drive(900,900,900,900, 0,0, .3);
-   mpause();
-   closeclaw();
-   spause();
-   drive(0,0,0,0, 500,-500, .41); //up\
-   mpause();
-   drive(-800,-800,-800,-800, 0,0, .3);
-   mpause();
-   drive(150,-150,-150,150, 0,0, .3);
-   mpause();
-   servoy();
-   drive(0,0,0,0, 500,-500, .65); //up\
-   drive(-1135,1135,-1135,1135, 0,0, .25);
-   mpause();
-   drive(65,65,65,65, 0,0, .3);
-   spause();
+  drive(1400,1400,1400,1400, 0,0, .3);
+      mpause();
+      drive(-200,-200,-200,-200, 0,0, .3);
+      mpause();
+      servoy();
+      drive(0,0,0,0, 1200,-1200, .65); //up
+      mpause();
+      drive(-315,315,-315,315, 0,0, .25);
+      mpause();
+      drive(85,85,85,85, 0,0, .25);
+      spause();
+      drive(0,0,0,0, -550,550, .4); //down
+      spause();
+      mpause();
+      openclaw();
+      spause();
+      drive(0,0,0,0, 550,-550, .65);
+      mpause();
+      
+      drive(1048,-1048,1048,-1048, 0,0, .25);
+      servox();
+      drive(0,0,0,0, -1000,1000, .4); //down
+      mpause();
+      spause();
+      drive(-150,150,150,-150, 0,0, .3);
+      mpause();
+      drive(880,880,880,880, 0,0, .3);
+      mpause();
+      closeclaw();
+      spause();
+      spause();
+      drive(0,0,0,0, 500,-500, .41); //up\
+      mpause();
+      drive(-800,-800,-800,-800, 0,0, .3);
+      mpause();
+      drive(150,-150,-150,150, 0,0, .3);
+      mpause();
+      servoy();
+      drive(0,0,0,0, 500,-500, .65); //up\
+      drive(-1135,1135,-1135,1135, 0,0, .25);
+      mpause();
+      drive(65,65,65,65, 0,0, .3);
+      spause();
+      drive(0,0,0,0, -550,550, .4);
+      spause();
+      openclaw();
+      spause();
    drive(0,0,0,0, -550,550, .37);
    spause();
    openclaw();
    mpause();
+   drive(0,0,0,0, 500,-500, .65); //up\
+   drive(-356,356,-356,356, 1000,-1000, .3);
+   mpause();
+   drive(900,900,900,900, 0,0, .3);
+   mpause();
+   drive(-660,660,-660,660, 0,0, .3);
+   mpause();
+   drive(600,600,600,600, 0,0, .3);
 
 
 
@@ -209,7 +223,7 @@ public void runOpMode(){
       servoy();
       drive(0,0,0,0, 1200,-1200, .65); //up
       mpause();
-      drive(-382,382,-382,382, 0,0, 3);
+      drive(-315,315,-315,315, 0,0, .25);
       mpause();
       drive(85,85,85,85, 0,0, .25);
       spause();
@@ -217,10 +231,11 @@ public void runOpMode(){
       spause();
       mpause();
       openclaw();
-      mpause();
+      spause();
       drive(0,0,0,0, 550,-550, .65);
       mpause();
-      drive(1103,-1103,1103,-1103, 0,0, .25);
+      
+      drive(1048,-1048,1048,-1048, 0,0, .25);
       servox();
       drive(0,0,0,0, -1000,1000, .4); //down
       mpause();
@@ -230,6 +245,7 @@ public void runOpMode(){
       drive(880,880,880,880, 0,0, .3);
       mpause();
       closeclaw();
+      spause();
       spause();
       drive(0,0,0,0, 500,-500, .41); //up\
       mpause();
@@ -246,6 +262,7 @@ public void runOpMode(){
       drive(0,0,0,0, -550,550, .4);
       spause();
       openclaw();
+      spause();
       drive(0,0,0,0, 500,-500, .65); //up\
       drive(-1070,1070,-1070,1070, 1000,-1000, .3);
       mpause();
@@ -262,29 +279,31 @@ public void runOpMode(){
       drive(-200,-200,-200,-200, 0,0, .3);
       mpause();
       servoy();
-      drive(0,0,0,0, 1200,-1200, .8); //up
+      drive(0,0,0,0, 1200,-1200, .65); //up
       mpause();
-      drive(-382,382,-382,382, 0,0, 3);
+      drive(-315,315,-315,315, 0,0, .25);
       mpause();
       drive(85,85,85,85, 0,0, .25);
       spause();
-      drive(0,0,0,0, -550,550, .37); //down
+      drive(0,0,0,0, -550,550, .4); //down
       spause();
       mpause();
       openclaw();
+      spause();
+      drive(0,0,0,0, 550,-550, .65);
       mpause();
-      drive(0,0,0,0, 550,-550, .8);
-      mpause();
-      drive(1103,-1103,1103,-1103, 0,0, .25);
+      
+      drive(1048,-1048,1048,-1048, 0,0, .25);
       servox();
-      drive(0,0,0,0, -1000,1000, .37); //down
+      drive(0,0,0,0, -1000,1000, .4); //down
       mpause();
       spause();
       drive(-150,150,150,-150, 0,0, .3);
       mpause();
-      drive(900,900,900,900, 0,0, .3);
+      drive(880,880,880,880, 0,0, .3);
       mpause();
       closeclaw();
+      spause();
       spause();
       drive(0,0,0,0, 500,-500, .41); //up\
       mpause();
@@ -293,16 +312,31 @@ public void runOpMode(){
       drive(150,-150,-150,150, 0,0, .3);
       mpause();
       servoy();
-      drive(0,0,0,0, 500,-500, .8); //up\
+      drive(0,0,0,0, 500,-500, .65); //up\
       drive(-1135,1135,-1135,1135, 0,0, .25);
       mpause();
       drive(65,65,65,65, 0,0, .3);
       spause();
-      drive(0,0,0,0, -550,550, .37);
+      drive(0,0,0,0, -550,550, .4);
       spause();
       openclaw();
-      mpause();
+      spause();
+      
    
+   
+      drive(0,0,0,0, 550,-550, .65);
+      mpause();
+      
+      drive(-326,326,-326,326, 1000,-1000, .3);
+      servox();
+      drive(0,0,0,0, -1000,1000, .4); //down
+      mpause();
+      drive(-800,-800,-800,-800, 0,0, .3);
+      mpause();
+      drive(692,-692,692,-692, 0,0, .3);
+      mpause();
+      drive(-750,-750,-750,-750, 0,0, .3);
+      mpause();
   }
 
  rf.setPower(0);
@@ -337,7 +371,7 @@ public void runOpMode(){
     lf.setPower(0);
     rb.setPower(0);
     lb.setPower(0);
-    sleep(75);
+    sleep(110);
     }
     
     public void spause (){
